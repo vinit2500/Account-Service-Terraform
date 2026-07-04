@@ -17,7 +17,3 @@ variable "common_tags" {
   description = "Common resource tags"
   type        = map(string)
 }
-
-variable "vpc_cidr" {
-  type = string
-}
